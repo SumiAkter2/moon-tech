@@ -1,8 +1,11 @@
 import React from "react";
 
-const ProductCard = () => {
-  // const { data } = useContext(ProductProvider);
-  return <div></div>;
+const ProductCard = ({ product }) => {
+  return (
+    <div>
+      <h1>{product.model}</h1>
+    </div>
+  );
 };
 
 export default ProductCard;
